@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tensorboard_graph_creator"
+version = "0.1.0"
+description = ""
+authors = ["Mateusz Stankiewicz <mateusz@mateusz.at>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.22.2"
+pandas = "^1.4.0"
+matplotlib = "^3.5.1"
+seaborn = "^0.11.2"
+tensorboard = "^2.8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
